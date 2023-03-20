@@ -15,7 +15,16 @@
             <a class="cabecalho__menu__link" href="sobremim.html">Sobre Mim</a>
             <a class="cabecalho__menu__link" href="experiencia.html">Experiência</a>
             <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+            <div class="mobile__menu__icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu.png"></button>
+            </div>
         </nav>
+        <div class="mobile__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="sobremim.html">Sobre Mim</a>
+            <a class="cabecalho__menu__link" href="experiencia.html">Experiência</a>
+            <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+        </div>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
@@ -23,7 +32,7 @@
             <div class="projetos">
                 <div class="projetos__card">
                     <h2 class="titulo__projeto">Alura Books</h2>
-                    <img src="img/projeto1.png" alt="Imagem Alura Books projeto 1">
+                    <img class="img__projeto" src="img/projeto1.png" alt="Imagem Alura Books projeto 1">
                     <p class="descricao__projeto">Projeto desenvolvido a partir do curso JavaScript: métodos de array. Em que foi possível entender alguns 
                         métodos para tratar array. Como o método ForEach, Map, Filter, Sort e Reduce.
                     </p>
@@ -34,7 +43,7 @@
                 </div>
                 <div class="projetos__card">
                     <h2 class="titulo__projeto">Mochila de Viagem</h2>
-                    <img src="img/projeto2.png" alt="Imagem Mochila de viagem projeto 2">
+                    <img class="img__projeto" src="img/projeto2.png" alt="Imagem Mochila de viagem projeto 2">
                     <p class="descricao__projeto">Projeto desenvolvido a partir do curso JavaScript: armazenando dados no navegador. 
                         Que teve como aprendizado, como trabalhar com o localStorage do navegador através do JavaScript. 
                     </p>
@@ -47,7 +56,7 @@
             <div class="projetos">
                 <div class="projetos__card">
                     <h2 class="titulo__projeto">Jogo Número Secreto</h2>
-                    <img src="img/projeto3.png" alt="Imagem jogo número secreto projeto 3">
+                    <img class="img__projeto" src="img/projeto3.png" alt="Imagem jogo número secreto projeto 3">
                     <p class="descricao__projeto">Projeto desenvolvido a partir do curso JavaScript: Validações e reconhecimento de voz. Em que foi possível entender como
                         aplicar Validações com JavaScript e como consumir uma API de reconhecimento de voz, a Web Speech API
                     </p>
@@ -57,8 +66,8 @@
                         Visualizar</a>
                 </div>
                 <div class="projetos__card">
-                    <h2 class="titulo__projeto">Jogo Número Secreto</h2>
-                    <img src="img/projeto4.png" alt="Imagem alura midi projeto 4">
+                    <h2 class="titulo__projeto">Alura midi</h2>
+                    <img class="img__projeto" src="img/projeto4.png" alt="Imagem alura midi projeto 4">
                     <p class="descricao__projeto">Projeto desenvolvido a partir do curso JavaScript: Crie páginas dinâmicas. Com o objetivo de aprender a manipular o DOM através do JavaScript
                     </p>
                     <span>Tecnologias usadas no projeto: HTML, CSS, JavaScript.</span>
@@ -74,5 +83,6 @@
         <p>Desenvolvido por Luiz Guilherme Crema.</p>
     </footer>
     
+    <script src="js/script.js"></script>
 </body>
 </html>
