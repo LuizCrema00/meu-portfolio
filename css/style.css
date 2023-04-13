@@ -210,7 +210,12 @@ body {
     .mobile__menu__icon {
        display: block;
     }
-
+    
+    .mobile__menu__icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
     .mobile__menu {
         display: none;
         flex-direction: column;
