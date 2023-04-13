@@ -35,7 +35,7 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
     text-decoration: none;
 }
 
@@ -209,7 +209,7 @@ body {
 
     .mobile__menu__icon {
        display: block;
-       
+
     }
     
     .mobile__menu__icon button {
