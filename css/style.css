@@ -4,6 +4,7 @@
     --cor-primaria: #000;
     --cor-secundaria: #f6f6f6;
     --cor-terciaria: #850000;
+    --cor-quaternaria: #24252a;
     --cor-hover: #272727;
 
     --fonte-principal: 'Krona One', sans-serif;
@@ -17,7 +18,7 @@
 }
 
 header {
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-quaternaria);
     box-shadow: 0px 3px 10px #464646;
 }
 
@@ -41,7 +42,7 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     text-decoration: none;
 }
 
@@ -131,8 +132,8 @@ body {
 
 .rodape {
     padding: 24px;
-    color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    background-color: var(--cor-quaternaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
