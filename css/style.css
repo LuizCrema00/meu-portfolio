@@ -30,7 +30,13 @@ body {
 
 .cabecalho {
     padding: 2% 0% 0% 15%;
+   
 }
+
+/* .logo {
+    padding: 1.5rem 6rem;
+    justify-content: start;
+} */
 
 .cabecalho__menu {
     display: flex;
@@ -40,7 +46,7 @@ body {
 
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--cor-secundaria);
     text-decoration: none;
@@ -202,7 +208,7 @@ body {
 
 }
 
-@media (max-width: 670px) {
+@media (max-width: 716px) {
     .cabecalho__menu{
         display: none;
     }
@@ -225,7 +231,7 @@ body {
         border: none;
         cursor: pointer;
         position: absolute;
-        left: 0;
+        right: 0;
         top: 0;
     }
     
