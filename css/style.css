@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;400&family=Roboto+Condensed:wght@400;700&display=swap');
 
 :root {
-    --cor-primaria: #000;
+    --cor-primaria: #6DA9E4;
     --cor-secundaria: #f6f6f6;
-    --cor-terciaria: #850000;
-    --cor-quaternaria: #24252a;
+    --cor-terciaria: #654E92;
+    --cor-quaternaria: #576CBC;
     --cor-hover: #272727;
 
     --fonte-principal: 'Krona One', sans-serif;
@@ -19,7 +19,7 @@
 
 header {
     background-color: var(--cor-quaternaria);
-    box-shadow: 0px 3px 10px #464646;
+    box-shadow: 0px 3px 10px #05BFDB;
 }
 
 body {
@@ -253,6 +253,7 @@ body {
 
     .apresentacao__conteudo__titulo {
         padding: 5% 15% 5%;
+        font-size: 1.50rem;
     }
 
     .apresentacao__conteudo__texto {
