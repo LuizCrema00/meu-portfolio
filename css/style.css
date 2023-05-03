@@ -136,6 +136,11 @@ body {
     width: 50%;
 }
 
+.apresentacao__habilidades{
+    display: flex;
+    gap: 10px;
+}
+
 .rodape {
     padding: 24px;
     color: var(--cor-secundaria);
@@ -144,7 +149,7 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
-    box-shadow: 0px 3px 10px #464646;
+    box-shadow: 0px 3px 10px #05BFDB;
 }
 
 .container__certificado {
